@@ -80,7 +80,7 @@ spec:
           value: https://$(HOSTNAME).cluster-vault-internal:8201
         - name: HOME
           value: /home/vault
-        image: hashicorp/vault:1.10.3
+        image: hashicorp/vault:1.10.3-ubi
         imagePullPolicy: IfNotPresent
         lifecycle:
           preStop:
